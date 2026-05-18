@@ -7,3 +7,5 @@
 [2026-05-18 10:57:35 UTC] 84878fb4dc2ca06e3c3e5d76664ea4facd3933cf | Zinin Pavel <pashazerfa@gmail.com> | feat(team-a): bump version and set team alpha
 [2026-05-18 10:57:44 UTC] 0f2e6961b7d3b5a0bffca49070716d7977d80d71 | Zinin Pavel <pashazerfa@gmail.com> | feat(team-b): bump version and set team beta
 [2026-05-18 10:58:27 UTC] 782f67c873f8b00e02ffd76b5ca151294d7977f6 | Zinin Pavel <pashazerfa@gmail.com> | merge: resolve settings conflict (combined version after mergetool)
+[2026-05-18 10:58:28 UTC] cf2631b4c06c1216f5f8967a89b79ab445cb3644 | Zinin Pavel <pashazerfa@gmail.com> | chore: add commit.log from post-commit hook
+[2026-05-18 10:59:30 UTC] 714d51f06bfc55244dbbff00755504733f3fd8a1 | Zinin Pavel <pashazerfa@gmail.com> | docs: add lab report, GitHub setup and conflict example

@@ -2,7 +2,8 @@
 
 ## Pull Request: «Добавить модуль логирования»
 
-**Ветка:** `feature/add-logging` → `develop`
+**Ветка:** `feature/add-logging` → `develop`  
+**GitHub:** https://github.com/ZininPasha/laba2
 
 ### Описание изменений
 
