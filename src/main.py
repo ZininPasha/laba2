@@ -33,6 +33,7 @@ def run() -> None:
             logger.info("Операция %s: %s %s %s = %s", op, a, op, b, result)
             print(f"Результат: {result}")
         except ValueError as exc:
+            logger.warning("Некорректный ввод: %s", exc)
             print(f"Ошибка: {exc}")
 
 
