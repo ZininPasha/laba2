@@ -1,0 +1,11 @@
+#!/bin/sh
+# Post-commit hook: логирование коммита в commit.log
+set -e
+ROOT="$(git rev-parse --show-toplevel)"
+if command -v py >/dev/null 2>&1; then
+  exec py -3 "$ROOT/scripts/post_commit_log.py"
+elif command -v python3 >/dev/null 2>&1; then
+  exec python3 "$ROOT/scripts/post_commit_log.py"
+else
+  exec python "$ROOT/scripts/post_commit_log.py"
+fi

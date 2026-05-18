@@ -1,0 +1,11 @@
+#!/bin/sh
+# Pre-commit hook: проверка стиля (flake8) для staged .py файлов
+set -e
+ROOT="$(git rev-parse --show-toplevel)"
+if command -v py >/dev/null 2>&1; then
+  exec py -3 "$ROOT/scripts/pre_commit_check.py"
+elif command -v python3 >/dev/null 2>&1; then
+  exec python3 "$ROOT/scripts/pre_commit_check.py"
+else
+  exec python "$ROOT/scripts/pre_commit_check.py"
+fi
