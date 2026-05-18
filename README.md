@@ -10,7 +10,7 @@
 
 | Требование лабы | Где смотреть |
 |-----------------|--------------|
-| Отчёт | `docs/OTCHET_LAB2.md` |
+| Отчёт (PDF) | `docs/ЛР2_Отчет.pdf` |
 | Git Flow (ветки) | `main`, `develop`, `feature/*` |
 | Код-ревью | `docs/CODE_REVIEW.md` |
 | Конфликт | `docs/CONFLICT_RESOLUTION.md`, `docs/conflict_before.txt` |
