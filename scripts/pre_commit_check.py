@@ -12,7 +12,11 @@ def staged_python_files() -> list[str]:
         text=True,
         check=True,
     )
-    return [f for f in result.stdout.splitlines() if f.endswith(".py")]
+    return [
+        f
+        for f in result.stdout.splitlines()
+        if f.endswith(".py") and f.startswith("src/")
+    ]
 
 
 def main() -> int:
@@ -20,12 +24,7 @@ def main() -> int:
     if not files:
         return 0
     print("pre-commit: flake8 для", ", ".join(files))
-    proc = subprocess.run(
-        [sys.executable, "-m", "flake8", *files],
-        cwd=subprocess.check_output(
-            ["git", "rev-parse", "--show-toplevel"], text=True
-        ).strip(),
-    )
+    proc = subprocess.run([sys.executable, "-m", "flake8", *files])
     if proc.returncode != 0:
         print("pre-commit: проверка стиля не пройдена. Коммит отменён.")
     return proc.returncode

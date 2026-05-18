@@ -6,15 +6,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-def git_root() -> Path:
-    out = subprocess.check_output(
-        ["git", "rev-parse", "--show-toplevel"], text=True
-    )
-    return Path(out.strip())
-
-
 def main() -> int:
-    root = git_root()
+    # Hooks выполняются из корня репозитория
+    root = Path.cwd()
     commit_hash = subprocess.check_output(
         ["git", "rev-parse", "HEAD"], text=True
     ).strip()
