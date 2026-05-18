@@ -1,0 +1,9 @@
+[2026-05-18 13:56:20 UTC] c1f08e78905c1ed3281260558677703cef409094 | Zinin Pavel <pashazerfa@gmail.com> | chore: initial calculator project with gitignore and hooks
+[2026-05-18 10:56:48 UTC] 553a4b34aadadb5dfec28297c4c43ab5e81e8ab3 | Zinin Pavel <pashazerfa@gmail.com> | feat: add logger module
+[2026-05-18 10:56:49 UTC] 94b59821725885765b69790512104553755a2549 | Zinin Pavel <pashazerfa@gmail.com> | feat: integrate logging in main REPL
+[2026-05-18 10:57:06 UTC] c9aaeb158fd1c24b3257c45a93ca40417a33576e | Zinin Pavel <pashazerfa@gmail.com> | docs: add docstring to get_logger (code review)
+[2026-05-18 10:57:07 UTC] ddc3df113db6db1762c4d113067ded3868a45c7b | Zinin Pavel <pashazerfa@gmail.com> | fix: log ValueError on invalid input (code review)
+[2026-05-18 10:57:23 UTC] ce0e2c02f5906af65cd6af2443f56ad1243d4021 | Zinin Pavel <pashazerfa@gmail.com> | chore: fix hooks and add settings module on develop
+[2026-05-18 10:57:35 UTC] 84878fb4dc2ca06e3c3e5d76664ea4facd3933cf | Zinin Pavel <pashazerfa@gmail.com> | feat(team-a): bump version and set team alpha
+[2026-05-18 10:57:44 UTC] 0f2e6961b7d3b5a0bffca49070716d7977d80d71 | Zinin Pavel <pashazerfa@gmail.com> | feat(team-b): bump version and set team beta
+[2026-05-18 10:58:27 UTC] 782f67c873f8b00e02ffd76b5ca151294d7977f6 | Zinin Pavel <pashazerfa@gmail.com> | merge: resolve settings conflict (combined version after mergetool)
