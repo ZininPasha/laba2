@@ -1,4 +1,4 @@
-"""Настройки приложения."""
+"""Настройки приложения (команда Alpha)."""
 
-APP_VERSION = "1.0.0"
-TEAM = "core"
+APP_VERSION = "1.1.0-team-a"
+TEAM = "alpha"
